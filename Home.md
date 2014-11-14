@@ -6,8 +6,8 @@ It comes with a barebones application, with a few of the most commonly used feat
 
 # Further reading
 
-* [Getting started]
-* [Background]
-* [Explaining the stack]
-* [Implementation choices]
+* [[Getting started]]
+* [[Background]]
+* [[Explaining the stack]]
+* [[Implementation decisions]]
 
