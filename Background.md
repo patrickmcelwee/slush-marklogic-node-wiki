@@ -1,0 +1,7 @@
+You might ask, why a stack that is using AngularJS, Gulp, Node.js, etc. The main answer is pretty straight-forward: it matches the current direction of MarkLogic. As of MarkLogic 8 it will support native, server-side JavaScript, it will natively store JSON, it provides a Node.js client which interacts with the vastly extended MarkLogic REST-api. 
+
+Next to that, the MarkLogic Engineering team that also builds all core functionality, are building [sample stacks][https://github.com/marklogic/marklogic-samplestack] that uses the same components. The main difference between samplestack and this template is that this doesn't provide a static fully-fledged application, but rather provides a base template, a toolset, and a set of readily available components.
+
+More in general, JavaScript has gained a lot of popularity in all kinds of areas. It was originally used most to make website dynamic in browsers on desktops, but mobile development has increased its popularity. The past years it also became a popular language server-side, together with the hype around the JSON format. Server-side JavaScript resulted in amongst other node.js, which is immensely popular at the moment. Gulp, which runs on node.js, seems to be the currently most popular tool to do development tasks with. Slush relies on Gulp.
+
+Final part is AngularJS..
