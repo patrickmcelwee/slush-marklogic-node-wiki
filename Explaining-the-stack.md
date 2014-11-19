@@ -20,4 +20,6 @@ You typically won't change this layer, unless you want to provide free access, a
 
 The Front-end is built in dynamic HTML using JavaScript and CSS. AngularJS is used as general framework to coordinate all dynamic behavior. It includes routing and navigation through the application, as well as a MVC-like separation between data, visualization, and application logic. It also provides convenient handles for building dynamic web pages, leveraging libraries like [Angular-UI](http://angular-ui.github.io/), [Highcharts](http://www.highcharts.com/), [Google Maps](https://developers.google.com/maps/documentation/javascript/3.exp/reference) for fancy features. For presentation it uses components like [Bootstrap](http://getbootstrap.com/), and [Font-Awesome](http://fortawesome.github.io/Font-Awesome/).
 
-See [[Project folder structure]] for more details how everything is arranged on the filesystem.
+You will be changing this part most heavily. It fully controls look and feel of the resulting web application.
+
+See [[Project folder structure]] for more details how everything is arranged on the filesystem, and where to make changes to bend the application to where you want it to go.
