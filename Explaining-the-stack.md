@@ -8,7 +8,7 @@ The stack we are using, can be described as a three-tier solution:
 
 The Back-end is formed by a [MarkLogic REST-api](http://docs.marklogic.com/guide/rest-dev) HTTP server instance. The template tries to utilize the existing REST-api as much as possible for all its needs. It adds just a few custom [[REST extensions]], partly to provide interesting features like spell-suggestions, partly to support marshall JSON to XML and v.v. as native JSON storage is not yet supported in MarkLogic. That will come in [MarkLogic 8](http://www.marklogic.com/press-releases/marklogic-sets-standard-for-modern-database/).
 
-You will typically add and adjust search options, and depending on need add a few custom REST extensions of your own. They can optionally rely on custom XQuery libraries that will be uploaded for you in the [[Deployment proces]].
+You will typically add and adjust search options, and depending on need add a few custom REST extensions of your own. They can optionally rely on custom XQuery libraries that will be uploaded for you in the [[Deployment process]].
 
 You might also be adding configuration and code to leverage [MarkLogic's features](http://docs.marklogic.com/guide/app-dev), like Alerting, and DLS. Or setting up an [ingest framework](http://docs.marklogic.com/guide/ingestion) that transforms and processes incoming data using for instance Triggers, CPF, or MLCP transforms. Depending on the needs to manipulate data at ingest or afterwards this could be an area where you will be putting in part of you effort.
 
