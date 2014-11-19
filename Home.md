@@ -11,4 +11,5 @@ It comes with a barebones application, with a few of the most commonly used feat
 - [[Explaining the stack]]
 - [[Deployment process]]
 - [[Project folder structure]]
+- [[REST extensions]]
 - [[Implementation decisions]]
