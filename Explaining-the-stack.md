@@ -4,7 +4,7 @@ The stack we are using, consists of three layers:
 - Middle-layer: [node.js](http://nodejs.org/)
 - Back-end: [MarkLogic](http://marklogic.com)
 
-The Middle-layer is very thin though. So even though this can be technically seen as a three-tier solution, the Middle-layer is mostly serving as a Proxy between Front-end and Back-end. There is currently no business logic in the Middle-layer. That was a deliberate choice to keep the architecture simple. So effectively it might be better to describe this as a *two-tier solution* in the way it currently works.
+The Middle-layer is very thin though. So even though this can be technically seen as a three-tier solution, the Middle-layer is mostly serving as a Proxy between Front-end and Back-end. There is currently no business logic in the Middle-layer. That was a deliberate choice to keep the architecture simple. So effectively it might be better to describe this as a **two-tier solution** in the way it currently works.
 
 On the other hand, nothing stops you from moving business logic into the Node-layer, and effectively separating application logic from business logic. And with that maturing the Middle-layer into a proper Middle-tier.
 
