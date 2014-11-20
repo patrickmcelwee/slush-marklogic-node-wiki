@@ -1,8 +1,12 @@
-The stack we are using, can be described as a three-tier solution:
+The stack we are using, consists of three layers:
 
 - Front-end: [AngularJS](https://angularjs.org/)
-- Middle-tier: [node.js](http://nodejs.org/)
+- Middle-layer: [node.js](http://nodejs.org/)
 - Back-end: [MarkLogic](http://marklogic.com)
+
+The Middle-layer is very thin though. So even though this can be technically seen as a three-tier solution, the Middle-layer is mostly serving as a Proxy between Front-end and Back-end. There is currently no business logic in the Middle-layer. That was a deliberate choice to keep the architecture simple. So effectively it might be better to describe this as a *two-tier solution* in the way it currently works.
+
+On the other hand, nothing stops you from moving business logic into the Node-layer, and effectively separating application logic from business logic. And with that maturing the Middle-layer into a proper Middle-tier.
 
 # Back-end
 
@@ -12,8 +16,8 @@ You will typically add and adjust search options, and depending on need add a fe
 
 You might also be adding configuration and code to leverage [MarkLogic's features](http://docs.marklogic.com/guide/app-dev), like Alerting, and DLS. Or setting up an [ingest framework](http://docs.marklogic.com/guide/ingestion) that transforms and processes incoming data using for instance Triggers, CPF, or MLCP transforms. Depending on the needs to manipulate data at ingest or afterwards this could be an area where you will be putting in part of you effort.
 
-# Middle-tier
-The Middle-tier layer is formed by an [Express](http://expressjs.com/) listener running in Node.js. In this case it is very thin. It merely hosts the static files including the AngularJS related JavaScript and HTML templates, third-party JavaScript, styling, and images. Next to this it mostly serves as a proxy for REST calls to the MarkLogic back-end, handling authentication for it along the way, and potentially shielding subsets of the MarkLogic REST-api, if you would prefer not to expose all of it.
+# Middle-layer
+The Middle-layer is formed by an [Express](http://expressjs.com/) listener running in Node.js. In this case it is very thin. It merely hosts the static files including the AngularJS related JavaScript and HTML templates, third-party JavaScript, styling, and images. Next to this it mostly serves as a proxy for REST calls to the MarkLogic back-end, handling authentication for it along the way, and potentially shielding subsets of the MarkLogic REST-api, if you would prefer not to expose all of it.
 
 You typically won't change this layer, unless you want to provide free access, and disable login/logout for instance.
 # Front-end
