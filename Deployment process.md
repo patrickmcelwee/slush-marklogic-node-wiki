@@ -42,6 +42,6 @@ Where Roxy is kind of the build system for the MarkLogic part, is Gulp the build
 
 - `gulp`
 
-The other major task is to launch the Express listener that forms the [[Middle-tier|Explaining the stack]]:
+The other major task is to launch the Express listener that forms the [[Middle-layer|Explaining the stack]]:
 
 - `gulp server`
