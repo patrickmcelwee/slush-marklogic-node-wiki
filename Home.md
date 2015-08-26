@@ -6,10 +6,10 @@ It comes with a barebones application, with a few of the most commonly used feat
 
 ## Further reading
 
-- [[Getting started]]
+- [The README for the generator](https://github.com/marklogic/slush-marklogic-node)
+- [[Components]]
+- [[Project folder structure]]
+- [[Customization recipes]]
+- [[REST extensions]]
 - [[Background]]
 - [[Explaining the stack]]
-- [[Deployment process]]
-- [[Project folder structure]]
-- [[REST extensions]]
-- [[Implementation decisions]]
