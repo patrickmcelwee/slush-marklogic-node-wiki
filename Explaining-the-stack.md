@@ -21,8 +21,8 @@ interesting features like spell-suggestions.
 You will typically add and adjust [search
 options](https://docs.marklogic.com/guide/search-dev/query-options), and
 depending on need add a few custom [[REST extensions]] of your own. They can
-optionally rely on custom XQuery libraries that will be uploaded for you by
-Roxy.
+optionally rely on custom XQuery or Server-side Javascript libraries that will
+be uploaded for you by Roxy.
 
 You might also be adding configuration and code to leverage [MarkLogic's
 features](http://docs.marklogic.com/guide/app-dev), like

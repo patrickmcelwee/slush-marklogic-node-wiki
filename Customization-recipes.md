@@ -2,9 +2,9 @@
 
 Recipes on this page:
 
-- [Add a facet](#add-a-facet)
+- [Add a facet](#add-a-search-facet)
 
-## Add a facet
+## Add a [search facet](http://docs.marklogic.com/guide/search-dev/search-api#id_77403)
 
 To add a facet to the default search page, you will need to create a range
 index and a search constraint. Once you do that, the out-of-the-box application
@@ -12,7 +12,7 @@ will display a facet for that constraint on the search page. (This is done
 using the ml-facets directive that is part of the
 [ml-search-ng](https://github.com/joemfb/ml-search-ng) library.)
 
-### Step One to add a facet: Create a range index
+### Step One to add a facet: Create a [range index](http://docs.marklogic.com/guide/admin/range_index)
 
 Range indexes are added to deploy/ml-config.xml. There are comments there with
 examples of several kinds of range indexes. You should be able to uncomment one

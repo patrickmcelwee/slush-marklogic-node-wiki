@@ -14,8 +14,8 @@
     configure server when you run `./ml local bootstrap`
     - ml-config.xml - Project-specific MarkLogic configuration - This file is
       the ultimate record of how Roxy `bootstrap` will configure MarkLogic. Any
-settings in here will be set on the server. The `properties` files override
-various of these configurations.
+      settings in here will be set on the server. The `properties` files override
+      various of these configurations.
     - build.properties - Project-specific Roxy settings (for sharing with
       teammates)
     - local.properties - Environment-specific Roxy settings (for your local
@@ -39,7 +39,7 @@ various of these configurations.
         transforms](https://docs.marklogic.com/guide/rest-dev/transforms)
   - sample-data/ - 25 sample JSON files representing people - See the
     [README](https://github.com/marklogic/slush-marklogic-node#sample-data) for
-information on how to load them
+    information on how to load them
   - src/ - custom XQuery or server-side Javascript that Roxy will deploy into
     the app modules database when you run `./ml local deploy modules`
   - ui/
@@ -53,7 +53,7 @@ information on how to load them
       - detail/
         - details page and controller - sample details page, which will display
           JSON data out-of-the-box, using the
-[ng-json-explorer](https://github.com/Goldark/ng-json-explorer) library
+          [ng-json-explorer](https://github.com/Goldark/ng-json-explorer) library
       - landing/
         - initial landing page, for developers. It should be removed when no
           longer needed
@@ -66,13 +66,13 @@ information on how to load them
         - search page, service, and controller, landing page
         - this depends heavily on the
           [ml-search-ng](https://github.com/joemfb/ml-search-ng) library, so
-look there for docs on how to update/extend it
+          look there for docs on how to update/extend it
       - user/
         - (user service, and controller, for handling login/logout)
     - fonts/
       - fonts from [fontawesome](https://fortawesome.github.io/Font-Awesome/)
         and [glyphicons](http://glyphicons.com/), used by
-[Bootstrap](http://getbootstrap.com/)
+        [Bootstrap](http://getbootstrap.com/)
     - images/
       - logos
     - styles/

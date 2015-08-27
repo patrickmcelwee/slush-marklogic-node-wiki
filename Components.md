@@ -40,13 +40,13 @@ Dependencies are stored in bower_components/. The HTML index (app/ui/index.html)
 
 ## Gulp
 
-Where Roxy is kind of the build system for the MarkLogic part, Gulp is the
-build system for the UI part. It can take care of all sorts of tasks, like
-concatting and minifying JavaScript, converting Less to CSS, and
-launching/running node.js scripts. It can also watch for file changes, and
-repeat certain tasks automatically if needed. The default task is to run less
-and minify tasks once, and then watch for changes to repeat those tasks. It
-will therefore (normally) not terminate:
+Where Roxy acts as the build system for the MarkLogic part, Gulp is the build
+system for the UI part. It can take care of all sorts of tasks, like
+concatenating and minifying JavaScript, converting [Less](http://lesscss.org/)
+to CSS, and launching/running node.js scripts. It can also watch for file
+changes, and repeat certain tasks automatically if needed. The default task is
+to run less and minify tasks once, and then watch for changes to repeat those
+tasks. It will therefore (normally) not terminate:
 
 - `gulp`
 
